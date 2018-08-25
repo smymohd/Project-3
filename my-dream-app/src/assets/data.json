@@ -1,0 +1,90 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "title": "Best Salad in the World",
+            "description": "This is a recipe for the best tasting salad in the world",
+            "serves": "2 people",
+            "imageUrl": "assets/salad.jpg",
+            "ingredients": [
+                {
+                    "amount": "1 head",
+                    "name": "lettuce"
+                },
+                {
+                    "aomunt": "10",
+                    "name": "carrots"
+                },
+                {
+                    "amount": "2 tablespoons",
+                    "name": "ranch dressing"
+                }
+            ],
+             "instruction":[
+                 "remove lettuse leaves",
+                 "add lettuce leaves to a large bowl",
+                 "then add the carrots to the bowl",
+                 "add the ranch dressing",
+                 "then mix ingredients together in the bowl"
+             ]
+         },
+        {
+            "id": 2,
+            "title": "Chocolate Chip cookies",
+            "description": "This is a recipe handed by my grandmother",
+            "serves": "4 people",
+            "imageUrl": "assets/pancake.jpg",
+            "ingredients": [
+                {
+                    "amount": "1 bag",
+                    "name": "Chocolate chips"
+                },
+                {
+                    "aomunt": "1 cup",
+                    "name": "sugar"
+                },
+                {
+                    "amount": "2",
+                    "name": "eggs"
+                }
+            ],
+             "instruction":[
+                 "get a large bowl",
+                 "crack eggs into the bowl",
+                 "add the rest of the ingredients to the bowl",
+                 "mix ingredients with a whisk",
+                 "then evenly place small clumps of cookie on the baking sheet",
+                 "place baking sheet in oven for 12 minutes at 350 degree F"
+             ]
+        },
+        {
+            "id": 3,
+            "title": "Cinco de Nachos",
+            "description": "I discovered this reciepe when I went on a trip to Mexico. A nice lady taught me how to make world famous nachoes",
+            "serves": "2 adults or 4 kids",
+            "imageUrl": "assets/burrito.jpg",
+            "ingredients": [
+                {
+                    "amount": "1 bag",
+                    "name": "tortilla chips"
+                },
+                {
+                    "aomunt": "1 pound",
+                    "name": "shredded cheese"
+                },
+                {
+                    "amount": "1 can",
+                    "name": "refried beans"
+                }
+            ],
+             "instruction":[
+                 "spread tortilla chips on a large plate",
+                 "warm up beans in a pot on the stove",
+                 "sprinkle the shredded cheese on top of the chips",
+                 "place plate in the oven for 10 minutes at 350 degrees F",
+                 "finally remove plate from oven and spread refiend beans on the top of the beans "
+             ]
+        }   
+
+    ]
+}
