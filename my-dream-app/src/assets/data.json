@@ -20,7 +20,7 @@
                     "name": "ranch dressing"
                 }
             ],
-             "instruction":[
+             "instructions":[
                  "remove lettuse leaves",
                  "add lettuce leaves to a large bowl",
                  "then add the carrots to the bowl",
@@ -33,7 +33,7 @@
             "title": "Chocolate Chip cookies",
             "description": "This is a recipe handed by my grandmother",
             "serves": "4 people",
-            "imageUrl": "assets/pancake.jpg",
+            "imageUrl": "assets/cookie.jpg",
             "ingredients": [
                 {
                     "amount": "1 bag",
@@ -48,7 +48,7 @@
                     "name": "eggs"
                 }
             ],
-             "instruction":[
+             "instructions":[
                  "get a large bowl",
                  "crack eggs into the bowl",
                  "add the rest of the ingredients to the bowl",
@@ -62,7 +62,7 @@
             "title": "Cinco de Nachos",
             "description": "I discovered this reciepe when I went on a trip to Mexico. A nice lady taught me how to make world famous nachoes",
             "serves": "2 adults or 4 kids",
-            "imageUrl": "assets/burrito.jpg",
+            "imageUrl": "assets/nachos.jpg",
             "ingredients": [
                 {
                     "amount": "1 bag",
@@ -77,7 +77,7 @@
                     "name": "refried beans"
                 }
             ],
-             "instruction":[
+             "instructions":[
                  "spread tortilla chips on a large plate",
                  "warm up beans in a pot on the stove",
                  "sprinkle the shredded cheese on top of the chips",

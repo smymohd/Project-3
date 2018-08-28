@@ -1,8 +1,9 @@
+import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 //services
 import { RecipeService } from './services/recipe.service';
-import { AppRoutingModule } from './app-routing.module';
 
 //components
 import { AppComponent } from './app.component';
@@ -24,7 +25,8 @@ import { ShowRecipeComponent } from './pages/show-recipe/show-recipe.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormModule
   ],
   providers: [
     RecipeService

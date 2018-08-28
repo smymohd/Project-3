@@ -9,12 +9,12 @@ export class RecipeService {
   private recipes: Recipe[] = [];
   
   
- /* constructor() { 
+  constructor() { 
     (<any>RecipeData).recipes.forEach( recipe => {
       this.recipes.push( new Recipe(recipe));
     });
  
-  }*/
+  }
 
   public getRecipes(): Recipe[] {
     return this.recipes;
@@ -24,7 +24,7 @@ export class RecipeService {
     return _.find(this.recipes, (recipe) => recipe.id === id);
   }
 
-  public createRecipe(title: string, description: string, serves: string, imageUrl: string, ingredients: IIngredient, instructions: string[])
+  public createRecipe(title: string, description: string, serves: string, imageUrl: string, ingredients: IIngredient[], instructions: string[])
   {
     const newRecipeData = {
       id: getNextId(),
@@ -51,7 +51,7 @@ export class RecipeService {
     }
   }
   private getNextId(): number {
-    const max = _.maxBy( this.recipes, (recipe) => recipe.id;
+    const max = _.maxBy( this.recipes, (recipe) => recipe.id);
     return max.id + 1;
   }
 
